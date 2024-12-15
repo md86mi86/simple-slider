@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.1s;
+}
+
+body {
+  background-color: rgb(7, 11, 49);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container {
+  width: 400px;
+  height: 300px;
+  background-color: rgb(20, 34, 65);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .pictureBox {
+  width: 100%;
+  height: 100%;
+}
+body .container .pictureBox img {
+  width: 100%;
+  height: 100%;
+}
+body .container .leftButton {
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+}
+body .container .leftButton .left {
+  stroke: white;
+  stroke-width: 2px;
+}
+body .container .rightButton {
+  width: 25px;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+}
+body .container .rightButton .right {
+  stroke: white;
+  stroke-width: 2px;
+}
+
+/*# sourceMappingURL=output.css.map */
